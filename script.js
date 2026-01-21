@@ -11,7 +11,7 @@ $(document).ready(function(){
             }
         }),
         success: function (response, textStatus) {
-            console.log(response),
+            console.log(response);
         },
         error: function (request, textStatus, errorMessage) {
             console.log(errorMessage);
